@@ -20,10 +20,3 @@ const fillTable = async () => {
 }
 
 fillTable();
-
-// conn.query("SELECT version()", (err, q) => {
-//     if (err) throw err;
-//     console.log(q.rows[0]);
-//     conn.end();
-// });
-
